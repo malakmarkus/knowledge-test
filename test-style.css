@@ -3,10 +3,11 @@
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
 }
-
 #scores{
     margin-left: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: blueviolet;
 }
@@ -23,7 +24,7 @@
 }
 .hero > * {
     width:100%;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
 .testBtn{
@@ -31,14 +32,13 @@
     background-color:purple;
     color: white;
     width: fit-content;
-    padding: 12px;
+    padding: 12px 150px 12px 12px;
     margin: 20px;
     border-radius: 5px;
     display:block;
 }
 .choices{
 display: flex;
+flex-direction: column;
 justify-content: flex-start;
 }
-
-
