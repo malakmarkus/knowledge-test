@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.hero{
+    width:100vw;
+    height: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin: 0 auto;
+}
+h1{
+    width:100%;
+    text-align: center;
+}
+p{
+    width: 100%;
+    text-align: center;
+}
+.hero a{
+    width: 100%;
+    text-align: center;
+}
+
