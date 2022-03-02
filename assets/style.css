@@ -2,6 +2,13 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#scores{
+    margin-left: 20px;
+    text-decoration: none;
+    color: blueviolet;
 }
 .hero{
     width:100vw;
@@ -14,16 +21,17 @@
     max-width: 75%;
     margin: 0 auto;
 }
-h1{
+.hero > * {
     width:100%;
     text-align: center;
+    margin-bottom: 20px;
 }
-p{
-    width: 100%;
-    text-align: center;
-}
-.hero a{
-    width: 100%;
-    text-align: center;
+#testBtn{
+    text-decoration: none;
+    background-color:purple;
+    color: white;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 5px;
 }
 
