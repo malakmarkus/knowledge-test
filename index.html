@@ -7,8 +7,11 @@
     <title>Knowledge Test</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
-<body> 
-    <a id="scores" href="highscores.html">View high scores</a>
+<body>
+    <nav> 
+        <div id="viewHScores">View Highscores</div>
+        <div Id="timer-div">Time: <span id="timer">0</span></div>
+    </nav>
     <main class="hero">
       
         <h1>Coding Quiz Challenge</h1>
@@ -17,10 +20,39 @@
             Keep in mind that incorrect answer will penalize your score/time<br>
             by ten seconds!
         </p>
-        <a  class="testBtn" href="test.html">Start Quiz</a>
-    
-    </main>
+        <button type="button" id="startQuiz">Start Quiz</button>
 
+    </main>
+    <div>
+        <h1 id="quetion"></h1>
+        <div id="answers">
+            <p>
+                <button type="button" id="0"></button>
+            </p>
+            <p>
+                <button type="button" id="1"></button>
+            </p>
+            <p>
+                <button type="button" id="2"></button>
+            </p>
+            <p>
+                <button type="button" id="3"></button>
+            </p>
+        </div>
+    </div>
+    <div class="container" id="inputScore">
+        <h1>All done!</h1>
+        <p>Your final score: <span id="score"></span></p>
+        <p class="lead mb-4">Enter initials: <input type="text " id="initials"></p>
+        <button type="button" class="btn btn-primary btn-lg" id="submitInitials">Submit</button>
+    </div>
+    <div id="highScores">
+        <h1>Highscores</h1>
+        <div class="container h4 mb-4" id="scores"></div>
+        <button type="button" class="btn btn-primary btn-lg" id="goBack">Go Back</button>
+        <button type="button" class="btn btn-primary btn-lg" id="clearScores">Clear Scores</button>
+    </div>
     <script src="./assets/app.js"></script>
+
 </body>
 </html>
